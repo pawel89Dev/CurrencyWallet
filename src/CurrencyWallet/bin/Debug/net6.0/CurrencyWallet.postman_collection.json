@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "dbc90dbd-cac4-46f6-8461-71da9172966b",
+		"name": "CurrencyWallet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31247200"
+	},
+	"item": [
+		{
+			"name": "wallet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7109/wallet"
+			},
+			"response": []
+		},
+		{
+			"name": "Wallet/{walled_id}/deposite",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currency\": \"BAM\",\r\n    \"amount\": 33\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7109/Wallet/1/deposite"
+			},
+			"response": []
+		},
+		{
+			"name": "Wallet/{walled_id}/withdraw",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"currency\": \"aed\",\r\n  \"amount\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7109/Wallet/1/withdraw"
+			},
+			"response": []
+		},
+		{
+			"name": "Wallet/{walled_id}/exchange",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"currencyFrom\": \"aed\",\r\n  \"currencyTo\": \"egp\",\r\n  \"amount\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7109/Wallet/1/exchange"
+			},
+			"response": []
+		}
+	]
+}

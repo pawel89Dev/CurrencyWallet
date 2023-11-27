@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "24PUP+ESpN/oT7E3nrYiscU4ZXYx37evKvwQj82PRT4=",
+  "Source": "CurrencyWallet",
+  "BasePath": "_content/CurrencyWallet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
